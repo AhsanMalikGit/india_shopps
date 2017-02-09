@@ -1,0 +1,85 @@
+	#dz-wrap {
+		zoom: .95;
+		font-family: 'Open Sans';
+		white-space: nowrap;
+		border-radius: 6px 6px 0 0;
+		position: fixed;
+		bottom: 0; right: 0;
+		z-index:100
+		
+	}
+	.dealply-toast{
+		z-index:999 !important;
+	}
+	.dz-grid {
+		margin: 3px 0px;
+		display: inline-block;
+		border: solid 1px #CCC;
+		border-radius: 10px;
+		padding: 3px;
+	}
+	.dz-grid:hover {
+		box-shadow: 0px 2px 4px 0px #808080;
+	}
+	.dz-grid > div {
+		display: inline-block;
+		vertical-align: middle;
+		padding-right: 7px;
+	}
+	.dz-info * {
+		white-space: pre;
+		max-width: 80px;
+		
+		color: black;
+		font-size: 10px;
+	}
+	.dz-logo { word-wrap: normal;}
+	.dz-title {
+		height: 75px;
+		
+		overflow: hidden;
+		color: gray;
+		font-size:11px;
+		white-space: normal;
+	}
+	.dz-price { font-weight: bold;font-size: 16px;  }
+	#dz-controls { float: right; margin: -1px 2px -7px 0px; }
+	.dz-ctrl { 
+		display: inline-block; 
+		border: 1px solid #808080; 
+		border-radius: 55px; 
+		padding: 0px 4px; 
+		font-size: 16px; 
+		background: linear-gradient(#A0A0A0, #5E5E5E, #4D4D4D); 
+		color: #FFF; 
+		font-weight: bolder; 
+		line-height: 1.1; 
+		margin-left: 2px; 
+		cursor: pointer;
+	}
+	#dz-options { 
+		display: none; 
+		position: absolute; left: 630px;top:27px; font-size: 12px; border: solid 1px gray;
+		background-color: ffffff;
+		padding: 2px;
+	}
+	.dz-opt { background-color: #eee; margin-bottom: 1px; padding: 1px; cursor: pointer; }
+	.dz-opt:hover { background-color: silver; }
+	
+	#dz-settings { 
+		display: none; 
+		position: absolute; left: 630px;top:27px; font-size: 12px; border: solid 1px gray;
+		background-color: ffffff;
+		padding: 2px;
+	}
+	.dz-set { background-color: #eee; margin-bottom: 1px; padding: 1px; cursor: pointer; }
+	.dz-set:hover { background-color: silver; }
+	#dz-body { padding: 0 5px }
+	.dz-grid { background-color: #ffffff;}
+	
+	.dz-ctrl:hover{ background: linear-gradient(#A0A0A0, #8E8E8E, #6D6D6D);  }
+	/*#dz-titlebar { background: linear-gradient(#6F6F6F,#474747,#252525); border-radius: 5px 5px 0 0; padding: 2px 2px; }*/
+	#dz-titlebar { padding: 2px 2px; }
+	#dz-power { font-size: 12px;float:right;margin-right: 100px;margin-top: -15px;}
+	.highlight{ color:rgb(255, 39, 39);font-size: 15px;margin-left:4px }
+	#transpDiv {width: 95%;height: 100%;background-color:#fff;opacity: 0.85;filter: alpha(opacity=85);z-index: 80;top: 0;bottom: 0;right: 0;position: fixed;}

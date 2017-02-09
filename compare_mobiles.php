@@ -1,0 +1,31 @@
+<?php
+$mobiles['samsung-galaxy-s4-26'] = "Samsung Galaxy S4";
+$mobiles['lenovo-a7000-15'] = "Lenovo A7000";
+$mobiles['sony-xperia-c4-dual-81'] = "Sony Xperia C4 Dual";
+$mobiles['motorola-moto-x-play-32-gb-47'] = "Moto X Play";
+$mobiles['apple-iphone-6-1'] = "Apple Iphone 6";
+$mobiles['apple-iphone-6-plus-53'] = "Apple Iphone 6 Plus";
+$mobiles['samsung-galaxy-s6-edge-22'] = "Samsung Galaxy S6 Edge";
+$mobiles['apple-iphone-5s-2'] = "Apple Iphone 5S";
+$mobiles['samsung-galaxy-note-4-44'] = "Samsung Galaxy Note 4";
+$mobiles['lenovo-k3-note-3'] = "Lenovo K3 Note";
+$mobiles['samsung-galaxy-j5-5'] = "Samsung Galaxy J5";
+$mobiles['xiaomi-mi-4i-16'] = "Xiaomi MI 4I";
+$mobiles['samsung-galaxy-s6-17'] = "Samsung Galaxy S6";
+$mobiles['samsung-galaxy-j7-4'] = "Samsung Galaxy J7";
+$mobiles['motorola-moto-g-3rd-gen--6534'] = "Motorola Moto G (3rd Gen)";
+$mobiles['samsung-galaxy-a5-2016--80366'] = "Samsung Galaxy A5";
+$mobiles['samsung-galaxy-e7-6'] = "Samsung Galaxy E7";
+$mobiles['xiaomi-redmi-2-prime-6532'] = "Xiaomi Redmi 2 Prime";
+$mobiles['micromax-canvas-fire-4g-211'] = "Micromax Canvas Fire 4G";
+$mobiles['micromax-canvas-spark-14'] = "Micromax Canvas Spark";
+$mobiles['micromax-canvas-xpress-2-13'] = "Micromax Canvas Xpress";
+$mobiles['micromax-canvas-xpress-4g-6531'] = "Micromax Canvas Xpress 4G";
+$mobiles['micromax-canvas-juice-2-6529'] = "Micromax Canvas Juice 2";
+$mobiles['micromax-canvas-juice-4-80368'] = "Micromax Canvas Juice 4";
+$mobiles['lenovo-a6000-plus-6536'] = "Lenovo A6000 Plus";
+$mobiles['samsung-galaxy-a8-41'] = "Samsung Galaxy A8";
+$mobiles['microsoft-lumia-540-dual-sim-11'] = "Microsoft Lumia 540 Dual Sim";
+$mobiles['yu-yuphoria-62'] = "Yu Yuphoria";
+file_put_contents("compare_mobiles.json", json_encode( $mobiles ));
+?>

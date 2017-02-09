@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <sitemap>
+      <loc>http://www.indiashopps.com/static-sitemap.xml</loc>
+      <lastmod>2016-09-19</lastmod>
+   </sitemap>
+   <sitemap>
+      <loc>http://www.indiashopps.com/category-sitemap.xml</loc>
+      <lastmod>2016-09-19</lastmod>
+   </sitemap>
+   <sitemap>
+      <loc>http://www.indiashopps.com/image-sitemap.xml.gz</loc>
+      <lastmod>2016-09-19</lastmod>
+   </sitemap>
+   <sitemap>
+      <loc>http://www.indiashopps.com/product-sitemap.xml.gz</loc>
+      <lastmod>2016-09-19</lastmod>
+   </sitemap>
+   <sitemap>
+      <loc>http://www.indiashopps.com/blog-sitemap.xml</loc>
+      <lastmod>2016-09-19</lastmod>
+   </sitemap>   
+</sitemapindex>

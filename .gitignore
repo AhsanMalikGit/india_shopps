@@ -1,0 +1,19 @@
+### Laravel ###
+vendor/
+tests/
+storage/framework
+storage/logs
+config/
+.env
+
+
+###Zip Files###
+product-sitemap.xml.gz
+product-sitemap.xml
+custom-sitemap.xml
+category-sitemap.xml
+image-sitemap.xml
+image-sitemap.xml.gz
+robots_old.txt
+sitemap_back.xml
+static-sitemap.xml

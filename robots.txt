@@ -1,0 +1,27 @@
+User-agent: *
+
+Disallow: /log
+Disallow: /redirect
+Disallow: /index.php/log
+Disallow: /index.php/redirect
+
+## Do not crawl sub category pages that are sorted or filtered.
+Disallow: /*?sort*
+
+
+Disallow: /*?sort=s-a
+Disallow: /*?sort=s-d
+Disallow: /*?sort=d-d
+Disallow: /*?sort=f
+
+Disallow: /*?search_text=*
+
+## Do not crawl checkout and user account pages
+Disallow: /myaccount
+Disallow: /user/login
+Disallow: /user/register
+
+## Do not crawl seach pages and not-SEO catalog links
+Disallow: /search
+
+Sitemap: http://www.indiashopps.com/sitemap.xml

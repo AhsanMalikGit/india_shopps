@@ -1,0 +1,3 @@
+[26-Aug-2015 18:59:43 UTC] PHP Fatal error:  Class 'Illuminate\Database\Eloquent\Model' not found in /home/wwwindia/public_html/dev/app/Models/MenuModel.php on line 5
+[14-Oct-2015 02:39:04 UTC] PHP Fatal error:  Class 'Illuminate\Database\Eloquent\Model' not found in /home/wwwindia/public_html/dev/app/Models/MenuModel.php on line 5
+[15-Oct-2015 04:23:47 UTC] PHP Fatal error:  Class 'Illuminate\Database\Eloquent\Model' not found in /home/wwwindia/public_html/dev/app/Models/MenuModel.php on line 5
